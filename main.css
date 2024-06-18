@@ -1,0 +1,44 @@
+/* this is an external style sheet - best practice is to have all (or nearly all) of your css in an external style sheet */
+body{
+    color:rgb(145, 11, 185);
+    /* one way to layout information on a webpage */
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    margin: 0;
+}
+
+header{
+    grid-row: 1;
+    width: 100%;
+    background-color: rgb(255, 184, 235);
+}
+
+main{
+    grid-row: 2;
+    padding: 20px;
+}
+
+h1{
+    color:rgb(92, 13, 72);
+}
+
+#imgHTMLvCSS{
+    width: 500px;
+}
+
+.myGreenText{
+    color:rgb(67, 123, 225);
+}
+
+body{
+    color:rgb(105, 185, 255);
+}
+
+.myNewCustomStyle{
+    color:rgb(145, 11, 185);
+}
+
+footer{
+    grid-row: 3;
+    background-color: rgb(255, 184, 235);
+}

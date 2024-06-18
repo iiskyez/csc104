@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS history</title>
+    <!-- add a link to the css file(s) -->
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /* this is an embedded style 
+        #imgHTMLvCSS{
+            width: 500px;
+        }
+
+        .myGreenText{
+            color:rgb(118, 244, 104);
+        }
+
+        body{
+            color:rgb(190, 114, 178);
+        }
+
+        .myNewCustomStyle{
+            color:rgb(145, 11, 185);
+        }*/
+    </style>
+</head>
+<body>
+    <header>
+        <!-- h1 is the top level page heading; there should be 1 and only 1 h1 on a page -->
+        <h1>CSS History and Information</h1>
+
+        <!-- there are h1 through h6, they get progressively -->
+    </header>
+
+    <main>
+        <!-- to add an image, uswe the img tag and set 2 attributes and their values - src - image location; alt tag - is a description of the image -->
+        <img src="IMG_2282.JPG" alt="HTML outline with containers and then a completed CSS house." id="imgHTMLvCSS">
+
+        <h2>CSS Definition</h2>
+
+        <p class="myGreenText">
+            CSS stands for Cascading Style Sheets. CSS makes the HTML wedbpages look good. CSS can control layout, colors, font - basically any element on the page can be changed from the default (browser) style with CSS.
+        </p>
+
+        <!-- h2 is a subheading -->
+        <h2>History of CSS</h2>
+
+        <!-- build a bullet list of dates -->
+        <!-- ul is an unordered list -->
+        <ul>
+            <!-- for each piece of information we want to show, use an li -->
+            <li>CSS1 was released in 1996</li>
+            <li>CSS2 was released in 1998</li>
+            <li>Css3 - this is the current cersion - it is a living standard</li>
+        </ul>
+
+        <h2>Basic Structure of CSS</h2>
+
+        <p>
+            selector{
+                property: value;
+                property2: value;
+            }
+        </p>
+
+        <ul>
+            <li>CSS selectors can be an HTML element (example: p,body), id of an HTML element, custom class</li>
+            <li>CSS helps with the separation of content and looks</li>
+            <li>Easy to maintain</li>
+            <li>Accessibility issues can be more easily managed</li>
+        </ul>
+
+        <!-- this is an inline style - use sparinly - figure out a different way to accomplish the result 
+        the syntax for an inline style is style="property: value; property1: value1;" -->
+        <h2 class="myNewCustomStyle">There are 3 ways to include CSS on a webpage</h2>
+        <ul>
+            <li>External - this is the best practice - CSS is in a CSS file</li>
+            <li>Embedded - this applies to 1 page</li>
+            <li>Inline - this applies to a specific HTML element</li>
+        </ul>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

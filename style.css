@@ -1,0 +1,36 @@
+body{
+	background-color:rgb(216, 237, 237);
+	color:rgb(42, 87, 122);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+}
+
+h1{
+	grid-row: 1;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(147, 196, 235);
+	color:rgb(4, 132, 230);
+	position: sticky;
+	text-align: center;
+	font-size: xx-large;
+	text-shadow: rgb(48, 255, 245) 1px 0 5px;
+}
+
+h2{
+	grid-row: 1;
+    height: 50px;
+    width: 10%;
+	color:rgb(4, 132, 230);
+	position: sticky;
+	text-align: center;
+}
+
+h3{
+	text-decoration: underline;
+	position: sticky;
+}
+
+p{
+	margin: 10px;
+}

@@ -31,7 +31,6 @@ body{
         text-decoration: none;
       }
       
-      /* Change the link color to #111 (black) on hover */
       li a:hover {
         background-color: #8f6fa4;
       }
@@ -49,7 +48,7 @@ body{
       }
 
       ul {
-        position: -webkit-sticky; /* Safari */
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
       }
@@ -59,7 +58,7 @@ body{
 
 body{
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 100vh;

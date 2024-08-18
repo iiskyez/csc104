@@ -59,7 +59,7 @@ body{
 
 body{
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Century Gothic', 'Arial Narrow', Arial, sans-serif;
     display: grid;
     grid-template-rows: auto 1fr auto;
     height: 100vh;
